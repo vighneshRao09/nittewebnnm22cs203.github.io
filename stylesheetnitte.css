@@ -1,0 +1,70 @@
+body,h1,h2,h3,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif ;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    align-items:center;
+    padding: 20px;
+    background-color: rgb(3, 142, 255);
+    color: white;
+}
+.logo img{
+    max-height: 120px;
+}
+.college-info{
+    margin: 20px;
+}
+nav{
+    background-color: rgb(247, 131, 54);
+}
+.menu{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+.menu li{
+    margin-right:20px ;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.submenu{
+    display:none;
+    position: absolute;
+    background-color: rgb(162, 0, 255);
+    list-style: none;
+    padding:10px;
+}
+.dropdown:hover .submenu{
+    display: block;
+}
+.submenu li{
+    margin:5px 0;
+}
+li a:hover{
+    background-color: white;
+    color:black;
+}
+.social-media img{
+    max-width: 2%;
+    height:auto;
+}
+footer{
+    text-align: center;
+    color: rgb(248, 228, 228);
+    background-color: rgb(14, 15, 15);
+    margin-top: auto;
+    padding: 20px;
+}
